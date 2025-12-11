@@ -11,7 +11,9 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 // Map endpoints
-app.MapGet("/", () => "Demo.Api is running!");
+app.MapGet("/", () => "Demo.Api is running in AWS via CI/CD!");
+app.MapGet("/health", () => Results.Ok(new { status = "Healthy", time = DateTime.UtcNow }));
+
 
 app.MapGet("/version", () =>
 {
