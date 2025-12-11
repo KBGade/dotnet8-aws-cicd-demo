@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZRh99eFksy4=",
+  "success": true,
+  "projectFilePath": "F:\\dev\\dotnet8-aws-cicd-demo\\Demo.Api\\Demo.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KIRAN\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.9\\microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
+    "C:\\Users\\KIRAN\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
