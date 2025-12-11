@@ -1,6 +1,16 @@
 var builder = WebApplication.CreateBuilder(args);
+
+// Swagger / OpenAPI services
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
+// Enable Swagger UI for all environments (for this demo)
+app.UseSwagger();
+app.UseSwaggerUI();
+
+// Map endpoints
 app.MapGet("/", () => "Demo.Api is running!");
 
 app.MapGet("/version", () =>
